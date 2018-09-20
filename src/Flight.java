@@ -10,27 +10,29 @@ public class Flight {
 
 	}
 	
-	public void getDepartTime() {
+	public int getDepartTime() {
+		return 0;
 		
 	}
 
-	public void getOriginAirport() {
-		
+	public String getOriginAirport() {
+		return "";
 	}
 	
-	public void getDate() {
-		
+	public int getDate() {
+		return 0;
 	}
 	
-	public void getFlightNumber() {
-		
+	public int getFlightNumber() {
+		return 0;
 	}
 	
-	public void getDestAirport() {
-		
+	public String getDestAirport() {
+		return "";
 	}
 	
-	public void checkIfFlightExists() {
+	public boolean checkIfFlightExists() {
+		return false;
 		
 	}
 }
