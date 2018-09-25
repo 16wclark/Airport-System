@@ -6,10 +6,15 @@ public class Passenger {
 	}
 
 	static String first;
+	static String last;
+	static String locations;
+	
 	//Passenger flight = new Passenger();
 	
 	public static void printFlightInfo(Passenger flight) {
 		System.out.println(flight);
+		System.out.println(first + " " + last + " " + locations);
+		
 		
 	}
 	
@@ -18,9 +23,9 @@ public class Passenger {
 	}
 	
 	public String setPassenger(String firstName, String lastName, String location) {
-		String first = firstName;
-		String lastname2 = lastName;
-		String location2 = location;
-		return "";
+		first = firstName;
+		last = lastName;
+		locations = location;
+		return firstName;
 	}
 }
