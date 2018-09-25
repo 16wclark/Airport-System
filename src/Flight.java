@@ -1,6 +1,13 @@
 
 public class Flight extends AirlineCompany{
-
+	protected static String departDate;
+	protected static String departTime;
+	protected static String expectedDur;
+	protected static String departPlace;
+	static String date;
+	static int flightNum;
+	static String destPlace;
+	
 	public Flight() {
 		// TODO Auto-generated constructor stub
 		
@@ -17,34 +24,41 @@ public class Flight extends AirlineCompany{
 		flight1.setDestPlace("California");
 		flight1.setDepartTime("12:30pm");
 		flight1.expectedDuration("3 days");
-		Flight.printFlightInfo(flight1);
+		flight1.setFlightNumber(451);
+		Passenger.printFlightInfo(flight1);
 		//flight1.registerFlight(flight1, "12E");
 	}
 	
 	public String setDepartDate(String date) {
+		departDate = date;
 		return date;
 		
 	}
 	
 	public String setDepartTime(String time) {
+		departTime = time;
 		return time;
 		
 	}
 	
 	public String expectedDuration(String duration) {
+		expectedDur = duration;
 		return duration;
 		
 	}
 
 	public String setDepartPlace(String origin) {
+		departPlace = origin;
 		return origin;
 	}
 	
 	public int setDate() {
+		
 		return 0;
 	}
 	
-	public int setFlightNumber() {
+	public int setFlightNumber(int flightNumber) {
+		flightNum = flightNumber;
 		return 0;
 	}
 	

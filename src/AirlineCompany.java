@@ -2,6 +2,7 @@
 public class AirlineCompany extends Passenger{
 
 	protected String planeCompanyList[] = {"Delta", "Vigin Mobile", "American Airlines", ""};
+	static String test;
 	static AirlineCompany Delta = new AirlineCompany();
 	static AirlineCompany AmericanAirlines = new AirlineCompany();
 	static AirlineCompany VirginMobile = new AirlineCompany();
